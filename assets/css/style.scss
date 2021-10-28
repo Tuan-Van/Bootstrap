@@ -1,0 +1,112 @@
+$font_family_main: Helvetica, Arial, sans-serif;
+$font_family: "Times New Roman", Times, serif;
+$white-color:#fff;
+$black-color:#000;
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: $font_family_main;
+}
+body{
+    background-color: $white-color;
+}
+.navbar{
+    .navbar-brand{
+        font-family: $font_family;
+        font-size: 5rem;
+        color: $black-color;
+        margin: 0 40px;
+    }
+    .nav-item{
+        display: inline-block;
+        margin-left: 30px;
+        
+    }
+    .navbar-nav{
+        margin-right: 20px;
+    }
+    .nav-link{
+        color: $black-color;
+        font-size: 2rem;
+        text-decoration: none;
+        font-weight: 600;
+        cursor: pointer;
+        
+    }
+}
+.main{
+    .img-fluid{
+        margin: 40px 220px;
+        align-items:center;
+    }
+    h2{
+        margin: auto;
+        font-family: $font_family;
+        color: $black-color;
+        font-size: 5.4rem;
+        text-align: center;
+        width: 858px;
+    }
+    .main-text{
+        text-align: center;
+        font-size: 2rem;
+    }
+    h3{
+        text-align: center;
+        margin: 20px 0;
+        font-size: 4.4rem;
+    }
+    .layout{
+        margin: 40px 300px;
+        img{
+            margin-left: 30px;
+        }
+        p{
+            text-align: center;
+            margin-left: 40px;
+            width: 262px;
+            font-size: 2.2rem;
+        }
+    }
+
+}
+.footer{
+    display:block;
+    h5{
+        margin: auto;
+        font-size: 2rem;
+        text-align: center;
+    }
+    h2{
+        font-family: $font_family;
+        text-align: center;
+        margin: 80px auto;
+        font-size: 4.4rem;
+    }
+    ul{
+        list-style-type: none;
+        text-align: center;
+        margin: 40px 500px;
+        li{
+            margin-left: 40px;
+            text-decoration: none;
+        }
+       a{
+           color: $white-color;
+       }
+    }
+    p{
+        text-align: center;
+        font-size: 1.6rem;
+        width: 488px;
+        margin: auto;
+    }
+    .footer-end{
+        p{
+            font-size: 1.2rem;
+            width: 178px;
+        }
+    }
+}

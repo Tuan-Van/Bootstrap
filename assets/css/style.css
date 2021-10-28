@@ -1,0 +1,123 @@
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+.navbar .navbar-brand {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5rem;
+  color: #000;
+  margin: 0 40px;
+}
+
+.navbar .nav-item {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.navbar .navbar-nav {
+  margin-right: 20px;
+}
+
+.navbar .nav-link {
+  color: #000;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.main .img-fluid {
+  margin: 40px 220px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main h2 {
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
+  font-size: 5.4rem;
+  text-align: center;
+  width: 858px;
+}
+
+.main .main-text {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.main h3 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 4.4rem;
+}
+
+.main .layout {
+  margin: 40px 300px;
+}
+
+.main .layout img {
+  margin-left: 30px;
+}
+
+.main .layout p {
+  text-align: center;
+  margin-left: 40px;
+  width: 262px;
+  font-size: 2.2rem;
+}
+
+.footer {
+  display: block;
+}
+
+.footer h5 {
+  margin: auto;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.footer h2 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 80px auto;
+  font-size: 4.4rem;
+}
+
+.footer ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 40px 500px;
+}
+
+.footer ul li {
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+.footer ul a {
+  color: #fff;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 1.6rem;
+  width: 488px;
+  margin: auto;
+}
+
+.footer .footer-end p {
+  font-size: 1.2rem;
+  width: 178px;
+}
+/*# sourceMappingURL=style.css.map */
